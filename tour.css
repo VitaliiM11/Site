@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Ubuntu, "times new roman", times, roman, serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(87, 58, 24);
+}
+.menu img{
+  width: 75px;
+  margin-right: 45px;
+  margin-left: 60px;
+}
+.menu__list {
+  display: flex;
+}
+.menu__list a {
+  margin-left: 60px;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.main__title {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.main__title h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.lang__info {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 150px;
+  justify-content: space-between;
+}
+
+.study h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.study ul li {
+  margin-bottom: 30px;
+  font-weight: 18px;
+  width: 90%;
+}
+.study p {
+  margin-bottom: 30px;
+  font-weight: 18px;
+  width: 70%;
+}
+.lang__info img {
+  width: 570px;
+}
+
+
+.book {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 80px;
+  width: 600px;
+}
+.book h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+.book input {
+  width: 450px;
+  margin-bottom: 60px;
+  border: 0;
+  border-bottom: 2px solid #AEAEAE;
+
+  font-size: 18px;
+  font-weight: bold;
+}
+.book button {
+  width: 185px;
+  height: 60px;
+  color: white;
+  background-color: rgb(87, 58, 24);
+  text-align: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+.footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(104, 82, 58);
+}
+
+.ways, .contacts {
+  margin-top: 40px;
+}
+.ways {
+  margin-left: 120px;
+}
+.contacts {
+  margin-right: 120px;
+}
+.ways h3, .contacts h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 25px;
+}
+.ways__list {
+  display: flex;
+}
+.ways__list ul {
+  margin-right: 60px;
+}
+.ways__list ul li , .contacts__list p{
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+.ways__list a{
+  color: white;
+}

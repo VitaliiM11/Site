@@ -1,0 +1,171 @@
+﻿
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Ubuntu, "times new roman", times, roman, serif;
+}
+
+.menu{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(87, 58, 24);
+  }
+  .menu img{
+    width: 75px;
+    margin-right: 45px;
+    margin-left: 60px;
+  }
+  .menu__list {
+    display: flex;
+  }
+  .menu__list a {
+    margin-left: 60px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+
+a {
+    color: white;
+}
+
+body {
+    background: white;
+    font-size: 14px;
+    line-height: 22px;
+    color: #555555;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.cv {
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+}
+
+    .cv .cv_left_bar {
+        width: 280px;
+        background: darkgrey;
+    }
+
+        .cv .cv_left_bar .cv_left_photo {
+            width: 100%;
+            height: 280px;
+        }
+
+            .cv .cv_left_bar .cv_left_photo img {
+                width: 100%;
+                height: 100%;
+            }
+
+        .cv .cv_left_bar .cv_main {
+            padding: 0 25px;
+        }
+
+        .cv .cv_left_bar .bold {
+            color: #fff;
+        }
+
+b {
+    color: white;
+}
+
+
+.cv .cv_items {
+    padding: 25px 0;
+    border-bottom: 2px solid #b1eaff;
+}
+
+
+
+.cv .cv_left_bar ul li:last-child {
+    margin-bottom: 0;
+}
+
+.cv .cv_left_bar ul li .data {
+    color: #b1eaff;
+}
+
+.cv .cv_left_bar .cv_skills ul li {
+    display: flex;
+    margin-bottom: 10px;
+    color: #b1eaff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cv .cv_left_bar .cv_skills ul li {
+    width: 25%;
+}
+
+.cv .cv_left_bar .cv_skills ul li {
+    width: 60%;
+    margin: 0 5px;
+    height: 5px;
+    background: #009fd9;
+    position: relative;
+}
+
+
+
+
+
+.cv .cv_left_bar .semi-bold {
+    color: darkblue;
+    margin-bottom: 3px;
+}
+
+.cv .resume_right {
+    width: 520px;
+    background: darkblue;
+    padding: 25px;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(104, 82, 58);
+}
+
+.ways, .contacts {
+  margin-top: 40px;
+}
+.ways {
+  margin-left: 120px;
+}
+.contacts {
+  margin-right: 120px;
+}
+.ways h3, .contacts h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 25px;
+}
+.ways__list {
+  display: flex;
+}
+.ways__list ul {
+  margin-right: 60px;
+}
+.ways__list ul li , .contacts__list p{
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+.ways__list a{
+  color: white;
+}

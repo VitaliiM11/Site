@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Ubuntu, "times new roman", times, roman, serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(87, 58, 24);
+}
+.menu img{
+  width: 75px;
+  margin-right: 45px;
+  margin-left: 60px;
+}
+.menu__list {
+  display: flex;
+}
+.menu__list a {
+  margin-left: 60px;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+
+.main__title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.main__title h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.main__info {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  width: 1200px;
+}
+.main__info__list p {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.main__info img {
+  width: 420px;
+}
+
+.courses {
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 1200px;
+  margin-bottom: 80px;
+}
+
+.courses h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.courses__list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.courses__list a {
+  width: 250px;
+  height: 270px;
+  background-color: rgb(87, 58, 24);
+  border-radius: 20px;
+  transition: 0.2s;
+}
+.courses__list a:hover {
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.25);
+}
+.courses__list p {
+  color: white;
+}
+.course img {
+  height: 156px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+.course p {
+  font-size: 30px;
+  text-align: center;
+}
+
+.pros {
+  margin: 0 auto;
+  width: 1200px;
+  margin-bottom: 80px;
+}
+.pros h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+.pros__list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.pros__info {
+  width: 350px;
+  margin-bottom: 60px;
+}
+.pros__info img {
+  width: 45px;
+}
+.pros__info h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+.pros__info p {
+  font-size: 16px;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(104, 82, 58);
+}
+
+.ways, .contacts {
+  margin-top: 40px;
+}
+.ways {
+  margin-left: 120px;
+}
+.contacts {
+  margin-right: 120px;
+}
+.ways h3, .contacts h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 25px;
+}
+.ways__list {
+  display: flex;
+}
+.ways__list ul {
+  margin-right: 60px;
+}
+.ways__list ul li , .contacts__list p{
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+.ways__list a{
+  color: white;
+}
+

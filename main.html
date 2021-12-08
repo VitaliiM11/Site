@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="emblem.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+  <link rel="stylesheet" href="slideshow.css">
+  <title>Основне</title>
+</head>
+<body>
+  <div class="menu">
+    <a href="main.html"><img src="emblem.png" alt="Logo"></a>
+    <div class="menu__list">
+      <a href="rynok.html">Площа Ринок</a>
+      <a href="opera.html">Львівська національна опера</a>
+      <a href="zamok.html">Високий замок</a>
+      <a href="palace.html">Палац Потоцьких</a>
+      <a href="about.html">Про мене</a>
+    </div>
+  </div>
+  <div class="main__title">
+    <h1>Екскурсія по Львову</h1>
+  </div>
+  <div class="main__info">
+    <div class="main__info__list">
+      <p>Найкращі пам'ятки</p>
+      <p>Цікаві гіди</p>
+      <p>Тематичні автобуси</p>
+      <p>Безкоштовна їжа</p>
+    </div>
+    <img src="lviv.png" alt="Lviv">
+  </div>
+  
+
+  <script src="slideshow.js"></script>
+  <div class="container">
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+        <img src="rynok.png" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+        <img src="opera.png" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+        <img src="zamok.png" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+        <img src="palace.png" style="width:100%">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="rynok.png" style="width:100%" onclick="currentSlide(1)" alt="Площа Ринок">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="opera.png" style="width:100%" onclick="currentSlide(2)" alt="Львівська національна опера">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="zamok.png" style="width:100%" onclick="currentSlide(3)" alt="Високий замок">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="palace.png" style="width:100%" onclick="currentSlide(4)" alt="Палац Потоцьких">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="courses">
+    <h2>Наші екскурсії: </h2>
+    <div class="courses__list">
+      <a href="rynok.html"><div class="course">
+        <img src="rynok.png" alt="Площа Ринок">
+        <p>Площа Ринок</p>
+      </div></a>
+      <a href="opera.html"><div class="course">
+        <img src="opera.png" alt="Львівська національна опера">
+        <p>Оперний театр</p>
+      </div></a>
+      <a href="zamok.html"><div class="course">
+        <img src="zamok.png" alt="Високий замок">
+        <p>Високий замок</p>
+      </div></a>
+      <a href="palace.html"><div class="course">
+        <img src="palace.png" alt="Палац Потоцьких">
+        <p>Палац Потоцьких</p>
+      </div></a>
+    </div>
+  </div>
+
+
+  <div class="pros">
+    <h2>Чому обирають нас?</h2>
+    <div class="pros__list">
+      <div class="pros__info">
+        <h3>Зручний графік</h3>
+        <p>Працюємо з 8:00 до 22:00. Також пропонуємо нічні екскурсіЇ з 24:00 до 6:00.</p>
+      </div>
+      <div class="pros__info">
+        <h3>Дивовижні історії</h3>
+        <p>Кожен екскурсовод знає історію кожного камінчика локацій.</p>
+      </div>
+      <div class="pros__info">
+        <h3>Низькі ціни</h3>
+        <p>Дорослий квиток - 100 грн</p>
+        <p>Дитячий квиток - 60 грн</p>
+        <p>Група дорослих - 340 грн/4 кв.</p>
+        <p>Група дітей - 180 грн/4 кв.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="footer">
+    <div class="ways">
+      <h3>Наші тури : </h3>
+      <div class="ways__list">
+        <ul>
+          <li><a href="rynok.html">Площа Ринок</a></li>
+          <li><a href="opera.html">Львівська національна опера</a></li>
+        </ul>
+        <ul>
+          <li><a href="zamok.html">Високий замок</a></li>
+          <li><a href="palace.html">Палац Потоцьких</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="contacts">
+      <h3>Наші контакти : </h3>
+      <div class="contacts__list">
+        <p>+380 123 456 7890</p>
+        <p>+380 123 456 7890</p>
+      </div>
+    </div>
+</div>
+</body>
+</html>
